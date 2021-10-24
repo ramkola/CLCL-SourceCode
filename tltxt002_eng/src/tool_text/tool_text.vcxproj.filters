@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{77e618a4-914c-409e-b12a-ea17e86f2458}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d1c080dd-5b47-4f74-9c2b-e1704ab60f41}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8efc7342-9a8f-43f0-941e-aece97340fef}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="delete_crlf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="join_text.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="put_text.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quote.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="text_edit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="to_lower.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="to_upper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tool_text.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unquote.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="word_break.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tool_text.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CLCLPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="tool_text.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
